@@ -21,3 +21,6 @@ npm i ncp -D
 // Deploy
 mongodb user: dbFer pass: bdFerPassword
 url: mongodb+srv://dbFer:<password>@cluster0.c6keh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+// Deploy errores de dependencias de Babel
+npm i @babel/runtime
