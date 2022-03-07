@@ -16,3 +16,8 @@ npm install --save-dev @babel/plugin-transform-runtime
 
 // Dependencia para copiar los archivos que no son js cuando se ejecuta el build
 npm i ncp -D
+
+
+// Deploy
+mongodb user: dbFer pass: bdFerPassword
+url: mongodb+srv://dbFer:<password>@cluster0.c6keh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
