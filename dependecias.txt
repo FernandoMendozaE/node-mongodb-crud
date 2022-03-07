@@ -1,0 +1,18 @@
+// Dependencias
+npm i express express-handlebars mongoose morgan
+
+// Dependencias (desarrollo) Babel para convertir código nuevo a antiguo 
+npm i -D @babel/core  --> compilador de babel
+         @babel/cli   --> para utilizar desde consola babel
+         @babel/node  --> para utilizar junto a node
+         @babel/preset-env --> para poder ejecutar código de sintaxis nueva 
+         nodemon 
+
+// Dendencia para leer variavles de entorno
+npm i dotenv
+
+// Dependencia que soluciona cuando se quiere generar la carpeta dist con babel
+npm install --save-dev @babel/plugin-transform-runtime
+
+// Dependencia para copiar los archivos que no son js cuando se ejecuta el build
+npm i ncp -D
